@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "verslay": {
+      "type": "http",
+      "url": "https://mcp.verslay.com/mcp"
+    }
+  }
+}

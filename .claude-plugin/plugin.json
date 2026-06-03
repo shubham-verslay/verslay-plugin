@@ -1,0 +1,9 @@
+{
+  "name": "verslay",
+  "description": "Verslay business agents for Claude — leads, CRM, content, research, scheduling.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Verslay"
+  },
+  "homepage": "https://verslay.com"
+}

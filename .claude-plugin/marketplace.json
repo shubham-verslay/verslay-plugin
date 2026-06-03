@@ -1,0 +1,17 @@
+{
+  "name": "verslay",
+  "owner": {
+    "name": "Verslay",
+    "email": "support@verslay.com"
+  },
+  "metadata": {
+    "description": "Verslay business agents for Claude — leads, CRM, content, research, scheduling."
+  },
+  "plugins": [
+    {
+      "name": "verslay",
+      "source": "./",
+      "description": "Verslay business agents for Claude — leads, CRM, content, research, scheduling."
+    }
+  ]
+}
