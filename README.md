@@ -15,10 +15,10 @@ Verslay's internal orchestrator master skill, which stays private to the MCP ser
 
 ## What this bundles
 
-| Component | Path | What it does |
-| --- | --- | --- |
-| **Project instructions** | `skills/verslay-agent-instructions/` | `SKILL.md` — the canonical Verslay bootstrap: initialize every conversation with `verslay_initialize`, discover the right agent via `verslay_discover`, activate with `verslay_deploy`, and use `verslay_recall`/`verslay_memorize`/`verslay_report` for memory and logging. |
-| **MCP connector** | `.mcp.json` | Wires the remote Verslay MCP server (`https://mcp.verslay.com/mcp`, HTTP transport) so all `verslay_*` and provider tools (HubSpot, Gmail, LinkedIn, Calendly, Slack, Stripe, and dozens more) are available the moment the plugin is enabled. |
+| Component                | Path                                 | What it does                                                                                                                                                                                                                                                                                                                                                                        |
+| ------------------------ | ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Project instructions** | `skills/verslay-agent-instructions/` | `SKILL.md` — the canonical Verslay bootstrap: initialize every conversation with `verslay_initialize`, find the right use-case via `verslay_discover`, run it with `verslay_run({use_case_slug})`, and use `verslay_recall`/`verslay_memorize`/`verslay_report` for memory and logging. Use-cases are enabled at `hub.verslay.com/use-cases` — agents are not toggled individually. |
+| **MCP connector**        | `.mcp.json`                          | Wires the remote Verslay MCP server (`https://mcp.verslay.com/mcp`, HTTP transport) so all `verslay_*` and provider tools (HubSpot, Gmail, LinkedIn, Calendly, Slack, Stripe, and dozens more) are available the moment the plugin is enabled.                                                                                                                                      |
 
 ```text
 verslay-plugin/
